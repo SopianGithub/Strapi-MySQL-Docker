@@ -55,3 +55,17 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 ---
 
 <sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+
+
+## How to run with docker compose
+
+1. Containering strapiDB and run manual development strapi
+```
+docker compose up StrapiDB -d && npm run develop
+```
+
+2. Conatinering all
+```
+docker compose up -d
+```
+
